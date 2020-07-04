@@ -17,10 +17,6 @@ Issue the below commands in project root directory
 ```javascript
 python -m pytest tests/RunTest.py 
 ```
-By default it runs in Chrome browser, you can specify which browser to use as well
-```javascript
-python -m pytest tests/RunTest.py  --browser=firefox
-```
 
 Currently supported browsers are
 * chrome
