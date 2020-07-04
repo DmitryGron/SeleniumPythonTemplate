@@ -15,17 +15,13 @@ pip3 install -r requirements.txt
 Issue the below commands in project root directory
 
 ```javascript
-python tests/RunTest.py
+python -m pytest tests/RunTest.py 
 ```
 By default it runs in Chrome browser, you can specify which browser to use as well
 ```javascript
-python tests/RunTest.py --browser=firefox
+python -m pytest tests/RunTest.py  --browser=firefox
 ```
 
 Currently supported browsers are
 * chrome
 * firefox
-* edge
-* ie
-
-> Feel free to modify it to your own needs :)
